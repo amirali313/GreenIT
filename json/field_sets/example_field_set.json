@@ -48,6 +48,10 @@
 
   {"title": "How many virtual servers do you have?", "name": "fortyone", "type": "text", "validations": {"required": true}},
 
+  {"title": "What will be the evolution of your number of physical servers for 2019? (in% or quantity)","name":"fourtytwo","type":"text","validations":{"required": true}},
+
+  {"title": "What will be the evolution of your number of virtual servers for 2019? (in% or quantity)","name":"fourtythree","type":"text","validations":{"required": true}},
+
 {"title": "Has your company appointed a Green IT Manager / Digital Manager?", "name": "fortyfour", "type": "select", "options": ["Yes", "No", "I don't know"]},
 
 {"title": "Do you have a responsible digital strategy broken down into an action plan?", "name": "fortyfive", "type": "select", "options": ["Yes", "No", "I don't know"]},
@@ -60,6 +64,7 @@
 
 {"title": "Have you integrated Green IT into your business strategy?", "name": "fortynine", "type": "select", "options": ["Yes", "No", "I don't know"]},
 
+{"title": "Do you have those equipments in your compagny: Used:equipment used in the business activity, Not used functional:equipment in working order but no more used by the company(stored),Neither used nor functional:out of service equipment(HS)waiting for end of life treatment","name":"fifty","type":"select", "options":["Used","Not Used functional","Neither used nor functional"]},
 
 {"title": "Fixed stations, workstations?", "name": "fiftyone", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
 
@@ -83,6 +88,10 @@
 
 {"title": "Hard Disk Devices, Storage, Backup", "name": "sixtyone", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
 
+{"title": "Do you have other devices in your company? Keyboards, mouse, graphic tablets, scanners, microphones, speakers, office equipment","name":"sixtytwo","type":"select", "options":["Yes","No"]},
+
+{"title": "Regarding other devices, do you have in your company: Used: equipment used in the business activity,Not used functional:equipment in working order but no more used by the company (stored),Neither used nor functional: out of service equipment (HS) waiting for end of life treatment","name":"sixtythree","type":"select", "options":["Used","Not Used functional","Neither used nor functional"]},
+
 
 {"title": "Keyboards", "name": "sixtyfour", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
 
@@ -96,9 +105,12 @@
 
 {"title": "Office Automation", "name": "sixtynine", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
 
+{"title": "Do you know the consumption of your workstation in kWh per year? If yes please specify how much in KWh/year","name":"seventy","type":"text","validations":{"required": true}},
 
 
 {"title": "Do you track the energy consumption of your company activities?", "name": "seventyone", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Do you know the share of IT and IT equipment in your company's total energy consumption? If yes please specify how much in %","name":"seventytwo","type":"text","validations":{"required": true}},
 
 
 {"title": "Have you set up a power management system? (automatic shutdown / shutdown of workstations)", "name": "seventythree", "type": "select", "options": ["Yes", "No", "I don't know"]},
@@ -109,8 +121,9 @@
 
 {"title": "Have you set up an identification system on printers (to trigger printing)?", "name": "seventysix", "type": "select", "options": ["Yes", "No", "I don't know"]},
 
+{"title": "What is the average life of your professional copier / MFP (MFP Multi Fonction Printer)? Please specify in x years","name":"seventyseven","type":"text","validations":{"required": true}},
 
-
+{"title": "Are your printers set by default in eco mode? ","name":"seventyeight","type":"select", "options":["Yes","No","I Don't Know"]},
 
 {"title": "Energy saving (Automatic standby) ?", "name": "seventynine", "type": "select", "options": ["Yes", "No", "I don't know"]},
 
@@ -122,8 +135,19 @@
 
 {"title": "What is the number of pages printed / day / employee? (A4 equivalent)", "name": "eightythree", "type": "select", "options": ["From 10 to 20 ", "From 20 to 30", "More than 30 ", "I don't know"]},
 
+{"title": "Can you specify the number of cartridges/toners:Cartridges used per year:","name":"eightfour-1","type":"text","validations":{"required": true}},
+
+{"title": "Can you specify the number of cartridges/toners:Cartridges stored in the average business:","name":"eightfour-2","type":"text","validations":{"required": true}},
+
+{"title": "Can you specify the number of cartridges/toners:Toners used per year:","name":"eightfour-3","type":"text","validations":{"required": true}},
+
+{"title": "Can you specify the number of cartridges/toners:Toners stored in the average business:","name":"eightfour-4","type":"text","validations":{"required": true}},
 
 {"title": "Do you organize the separate collection of waste cartridges / toners?", "name": "eightyfive", "type": "select", "options": ["Yes, to a repackaging industry", "Yes, towards a recycling channel (destruction)", "No no separate collection device is planned"]},
+
+{"title": "Do you prefer the use of recycle paper?","name":"eightsix","type":"select", "options":["Yes,Our paper is made of virgin paste","Yes,Mixed paper","Yes,100% recycle","I'm not paying attention"]},
+
+{"title": "Do you choose certified paper?","name":"eightseven","type":"select", "options":["Yes,FSC","Yes,PEFC","Yes, Blue Angel","Yes, European Label","Yes,Others","I'm notpaying attention"]},
 
 {"title": "Do you organize the separate collection of waste paper for recycling?", "name": "eightyeight", "type": "select", "options": ["Yes", "No", "I don't know"]}
 ]
