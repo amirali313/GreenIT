@@ -1,0 +1,129 @@
+[
+{"title": "In which sector of activity is your company active? (linked with your APE code)","name": "one", "type": "select","options": ["Industry", "Business", "Information and communication", "Other services activity", "All other activities (financial, agricultural activities ...)","Construction","Public sector","Specialized, Scientific and Technical or Administrative and Support Services Activities","Real estate"]},
+{"title": "What is the number of employees in your company on 18/12/31 ?","name": "two", "type": "select","options": ["0", "1 to 2", "3 to 9", "10 to 49", "50 to 249","250 to 4999","More than 5000"]},
+{"title": "What is the turnover of your company in the last fiscal year? (or annual budget for Public sector)","name": "three", "type": "select","options": ["0 to 100K €", "100 to 500 K€", "500 to 2 M €", "2 to 10 M€", "10 to 50 M€","More than 50 M€"]},
+{"title": "Do you develop digital services for internal or external use (sales to customers)?","name": "four", "type": "select","options": ["Yes","No"]},
+{"title": "What is the number of users of your digital services?", "name": "Five", "type": "text", "validations": {"required": true}},
+{"title": "Do you apply the rules and best practices for digital accessibility?","name": "Six", "type": "select","options": ["Yes","No","I don't know"]},
+{"title": "Have you optimized the states and printouts in your application tools (reduced number of pages when printing, ink consumption ...)","name": "Seven", "type": "select","options": ["Yes","No","I don't know"]},
+{"title": "Do you integrate the principles of the ecodesign of digital services?","name": "Eight", "type": "select","options": ["Yes","No","I don't know"]},
+{"title": "Do you use a modular application architecture?","name": "Nine", "type": "select","options": ["Yes","No","I don't know"]},
+{"title": " Do you do a design review at the end of your application's development?","name": "Ten", "type": "select","options": ["Yes","No","I don't know"]},
+{"title": "What is the overall storage volume of your corporate data (centralized on external hard drives, centralized server, NAS, SAN ...) in Terabytes (TB) useful?", "name": "Eleven", "type": "text", "validations": {"required": true}},
+{"title": "Do you have a server or do you only work with one or more workstations?","name": "Twelve", "type": "select","options": ["We work with workstation (s), without centralized physical server","We have (at least) a centralized physical server"]},
+{"title": "Do you have a dedicated room, simple room or cupboard with bay dedicated to your IT infrastructure?","name": "Thirteen", "type": "select", "options": ["A closet or a room without any specific system","A dedicated room"]},
+{"title": "Is your computer room in house or at a host?","name": "Fourteen", "type": "select","options": ["Internal","Host Member of the European Code of Conduct for Datacenters","Non-adhering Host of the European Code of Conduct for Data Centers"]},
+{"title": "What is the total area of your computer rooms (excluding technical infrastructure *)? (in m2)","name": "Fiveteen", "type": "select","options": ["X m2 ","I don't know","I do not want to answer"]},
+{"title": " Do you know the PUE * of your Data Center? *PUE : Power Usage Effectiveness","name": "Sixteen", "type": "select","options": ["Less than 1,6", "Between 1,6 and 2,1", "More than 2,1", "I don't know"]},
+
+{"title": "What is the rate of charge or energy use of your computer rooms?Rate = Electrical power absorbed by your IT equipment, divided by room capacity in kW, then multiplied by 100 (used energy / available energy)","name": "Seventeen", "type": "select","options": ["100% - 90%", "90% - 60%", "Less than 60%", "I don't know"]},
+
+{"title": "Have you led or are you planning actions to optimize your infrastructure? Especially :","name": "Eighteen", "type": "select","options": ["Yes","No","I don't know"]},
+    
+{"title": "The purchase of non-IT equipment from IT rooms (air conditioning, air treatment, inverters, etc.) according to energy efficiency criteria","name": "Nineteen", "type": "select","options": ["Yes","No","I don't know"]},
+    
+{"title": " Implementing the good practices of the European Code of Conduct for DataCenter?","name": "Twenty", "type": "select","options": ["Yes","No","I don't know"]},
+
+ {"title": "Data center PUE tracking", "name": "twentyone", "type": "select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Regular monitoring of environmental indicators of computer rooms", "name": "twentytwo", "type": "select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Environmental impact analysis of the datacenter in life cycle approach", "name": "twentythree", "type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Optimizing the architecture and layout of rooms","name":"twentyfour","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "The urbanization of halls in hot / cold aisles","name":"twentyfive","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Containment of air flows (corridors)","name":"twentysix","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "The use of natural cooling sources (freecooling)","name":"twentyseven","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Implementation of a heat recovery system for computer rooms (heating)","name":"twentyeight","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "The set temperature in the cold corridor remains higher than 24 °","name":"twentynine","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "The choice of a modular datacenter architecture","name":"thirty","type":"select", "options":["Yes","No","I Don't Know"]},
+
+  {"title": "Have you led or are you planning actions to optimize your infrastructure?","name":"thirtyone","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Suspending network equipment","name":"thirtytwo","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Pooling physical equipment","name":"thirtythree","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Uninstalling unnecessary infrastructure","name":"thirtyfour","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Traceability of material elements (CMDB)","name":"thirtyfive","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "The correct sizing of the servers in relation to their use","name":"thirtysix","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Give priority to ASHRAE 2 compatible equipment","name":"thirtyseven","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "A procedure for provisioning and de-provisioning data-processing equipment in datacenters","name":"thirtyeight","type":"select", "options":["Yes","No","I Don't Know"]},
+  {"title": "Do you know the number of physical servers and virtual servers in your company?","name":"thirtynine","type":"select", "options":["Yes","No","I Don't want to answer"]},
+  {"title": "How many physical servers do you have?","name":"fourty","type":"text","validations":{"required": true}},
+
+  {"title": "How many virtual servers do you have?", "name": "fortyone", "type": "text", "validations": {"required": true}},
+
+{"title": "Has your company appointed a Green IT Manager / Digital Manager?", "name": "fortyfour", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Do you have a responsible digital strategy broken down into an action plan?", "name": "fortyfive", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Is Green IT a topic integrated into your CSR strategy?", "name": "fortysix", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Do you regularly evaluate the environmental impacts of your information system?", "name": "fortyseven", "type": "select", "options": ["Yes partially, including only equipment present in the company", "Yes totally, including our internal equipment and services hosted by third parties" ,"No", "I don't know"]},
+
+{"title": "Do you have a team of competent referees on the topics of Green IT?", "name": "fortyeight", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Have you integrated Green IT into your business strategy?", "name": "fortynine", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+
+{"title": "Fixed stations, workstations?", "name": "fiftyone", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Laptops, digital tablets", "name": "fiftytwo", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Small printers (<15kg, potentially used by a household)", "name": "fiftythree", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Flat screen monitors", "name": "fiftyfour", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Other flat screens (TV, projection screen, digital board ...)", "name": "fiftyfive", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "CRT monitors (monitors or other)", "name": "fiftysix", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Video projectors", "name": "fiftyseven", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Mobile phones", "name": "fiftyeight", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Fixed telephones (standalone not connected to such a standard)", "name": "fiftynine", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Digital cameras", "name": "sixty", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Hard Disk Devices, Storage, Backup", "name": "sixtyone", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+
+{"title": "Keyboards", "name": "sixtyfour", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Mouse", "name": "sixtyfive", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Graphic Tablets", "name": "sixtysix", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Scanners", "name": "sixtyseven", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Speakers", "name": "sixtyeight", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+{"title": "Office Automation", "name": "sixtynine", "type": "select", "options": ["Used", "Not Used", "Neither Used nor Functional"]},
+
+
+
+{"title": "Do you track the energy consumption of your company activities?", "name": "seventyone", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+
+{"title": "Have you set up a power management system? (automatic shutdown / shutdown of workstations)", "name": "seventythree", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Do you use copiers from a repackaging industry (second-hand / second-hand)?", "name": "seventyfour", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Do you consolidate individual printers to shared printers?", "name": "seventyfive", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Have you set up an identification system on printers (to trigger printing)?", "name": "seventysix", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+
+
+
+{"title": "Energy saving (Automatic standby) ?", "name": "seventynine", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Black and white by default ?", "name": "eighty", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Default duplex ?", "name": "eightyone", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "Default draft mode ?", "name": "eightytwo", "type": "select", "options": ["Yes", "No", "I don't know"]},
+
+{"title": "What is the number of pages printed / day / employee? (A4 equivalent)", "name": "eightythree", "type": "select", "options": ["From 10 to 20 ", "From 20 to 30", "More than 30 ", "I don't know"]},
+
+
+{"title": "Do you organize the separate collection of waste cartridges / toners?", "name": "eightyfive", "type": "select", "options": ["Yes, to a repackaging industry", "Yes, towards a recycling channel (destruction)", "No no separate collection device is planned"]},
+
+{"title": "Do you organize the separate collection of waste paper for recycling?", "name": "eightyeight", "type": "select", "options": ["Yes", "No", "I don't know"]}
+]

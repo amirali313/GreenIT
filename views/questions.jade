@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  div.container
+    div.page-header
+      h1= title
+    if user && user.name
+      h3 Welcome, #{user.name}!
+    if html_escape_message === false
+      p.lead!= message
+    else
+      p.lead= message
+    form(role="form", action="#{url}#{user && user.token ? '?token=' + user.token : ''}", method="post")
+      each f in fields
+        //- field names starting with an underscore are considered auto-generated aka internal... don't show on questions page.  Note: This should be refactored; it is not clear.
+        if f.name.charAt(0) === '_'
+          return
+        else if f.type !== 'checkbox'
+          div.form-group(class=fieldErrors && fieldErrors.hasOwnProperty(f.name) ? "has-error" : "")
+            label.control-label(for=f.name) #{f.title} #{f.validations && f.validations.required ? "*" : ""}
+            case f.type
+              when 'number'
+                include ./fields/number.jade
+              when 'text'
+                include ./fields/text.jade
+              when 'select'
+                include ./fields/select.jade
+            if fieldErrors && fieldErrors.hasOwnProperty(f.name)
+              span.help-block= fieldErrors[f.name]
+        else
+          div.checkbox
+            label
+              include ./fields/checkbox.jade
+      div.form-group
+        button.btn.btn-primary(type="submit") Submit
+        p.lead= messagetwo
+    a(href="#{url}/results#{user && user.token ? '?token=' + user.token : ''}") Responses
